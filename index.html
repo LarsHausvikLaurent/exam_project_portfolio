@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- Hotjar Tracking Code for https://practical-leavitt-a8fe17.netlify.app/blogs.html -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2734130, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <title>Veggi | Home</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <h2>Veggi</h2>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="blogs.html">Recipes</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header>
+        <a href="blogs.html">
+            <div class="homepage_cover cover">
+                <div class="homepage_message">
+                    <h1>Welcome to Veggi</h1>
+                    <h2>Check out my recipes here</h2>
+                </div>
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <section class="home_main_container">
+            <div class="carousel_container">
+                <div class="carousel_content">
+                    <div class="error-message_carousel"></div>
+                    <div class="carousel">
+                        <button class="carousel_button carousel_button-left">
+                            <img src="images/arrow_left.svg" alt="arrow left">
+                        </button>
+
+                        <div class="carousel_track_container">
+                            <ul class="carousel_track carousel_recipes_api">
+                                <li class="carousel_slide current-slide">
+
+                                    <a href="#" class="carousel_content_styling">
+                                        <div>
+                                            <h2>Hot tips!</h2>
+                                        </div>
+                                        <div>
+                                            <img src="images/slide-1.jpeg" alt="see our recipes">
+                                        </div>
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="carousel_button carousel_button-right">
+                            <img src="images/arrow_right.svg" alt="arrow right">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="welcome-message_container">
+                <h2>Welcome message</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div class="top-recipes_container">
+                <h2>Newest recipes!</h2>
+                <div class="top-recipes_api">
+                </div>
+                <div class="error-message"></div>
+
+            </div>
+
+            <div class="subscribe_container">
+                <h2>Get regular updates!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <a href="women.html" class="subscribe_cta">
+                    <h4>
+                        Subscribe
+                    </h4>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social-media_container">
+            <a href="https://www.facebook.com/">
+                <img src="images/icon_facebook.svg" alt="facebook">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="images/icon_twitter.svg" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/icon_instagram.svg" alt="instagram">
+            </a>
+        </div>
+        <div class="copyright_container">
+            @coopyrigth Lars Laurent
+        </div>
+    </footer>
+
+    <script src="js/error_message.js"></script>
+    <script src="js/responsive_nav.js"></script>
+    <script src="js/recepie_details.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

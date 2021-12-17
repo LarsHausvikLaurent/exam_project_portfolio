@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Carosel</title>
+</head>
+
+<body>
+    <div class="content-container">
+        <h>This is the carousel</h>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+                <img src="images/arrow_left.svg" alt="arrow left">
+            </button>
+
+            <div class="carousel__track-container">
+                <ul class="carousel__track api-content">
+                    <li class="carousel__slide current-slide">
+                        <h2>Find the newest recepies here!</h2>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="carousel__button carousel__button--right">
+                <img src="images/arrow_right.svg" alt="arrow right">
+            </button>
+
+        </div>
+    </div>
+
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>
